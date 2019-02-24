@@ -8,6 +8,8 @@ from . socket_type_chooser import ChooseSocketTypeOperator
 from . simulate_particle_system import SimulateParticleSystemOperator
 from . print_driver_dependencies import PrintDriverDependenciesOperator
 
+from . run_tree import RunTreeOperator
+
 operators = [
     AddDriverOperator,
     AnalyseTreeOperator,
@@ -16,7 +18,8 @@ operators = [
     ExecuteCallbackOperator,
     ChooseSocketTypeOperator,
     SimulateParticleSystemOperator,
-    PrintDriverDependenciesOperator
+    PrintDriverDependenciesOperator,
+    RunTreeOperator
 ]
 
 

@@ -28,6 +28,10 @@ from . change_particle_color import ChangeParticleColorNode
 from . change_particle_velocity import ChangeParticleVelocityNode
 from . offset_vector_with_object import OffsetVectorWithObjectNode
 from . change_particle_direction import ChangeParticleDirectionNode
+from . operators_VSE_filter import SequencerFilterNode
+from . operators_VSE_move import SequencerMoveNode
+from . operators_VSE_selection import SequencerSelectionNode
+from . operators_VSE_sort import SequencerSortNode
 
 node_classes = [
     GravityNode,
@@ -59,6 +63,10 @@ node_classes = [
     OffsetVectorWithObjectNode,
     ChangeParticleVelocityNode,
     ChangeParticleDirectionNode,
+    SequencerFilterNode,
+    SequencerMoveNode,
+    SequencerSelectionNode,
+    SequencerSortNode
 ]
 
 def register():
